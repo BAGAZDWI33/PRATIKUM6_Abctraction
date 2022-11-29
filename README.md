@@ -55,7 +55,7 @@ public abstract class BangunDatar{
 Disana terdapat menthod abstact class dengan nama bangun datar 
 menggunakan getter yang memanggil String Warna
 dengan cara pemanggilan menggunakan public abstract void gambar();
-dan public abstract fload getluas();
+dan public abstract float getluas();
 
 
 class abstrak turunana(inheritent)
@@ -128,6 +128,10 @@ public class lingkaran extends BangunDatar {
         return (float) (Math.PI * radius * radius);
     }
 }
+
+di class turunan menggunakan override 
+Jika suatu kelas mewarisi metode dari super kelasnya, maka ada peluang kelas ini untuk menimpa metode asalkan tidak ditandai sebagai final. Manfaat dari overriding Java adalah: kemampuan untuk mendefinisikan perilaku yang spesifik untuk tipe subclass, yang berarti subclass dapat mengimplementasikan metode parent class berdasarkan kebutuhannya. Dalam istilah berorientasi objek, override berarti mengesampingkan fungsionalitas metode yang ada.
+maka akan memanggil gambar dan luas di class utama (induk) secara langsung dan di terangkan dengan nama dan rumus sesuai nama class bangundatar masing-masing.
 
 dengan pemanggilan menggunakan class main
 
