@@ -58,6 +58,7 @@ dengan cara pemanggilan menggunakan public abstract void gambar();
 dan public abstract float getluas();
 
 
+
 class abstrak turunana(inheritent)
 
 pertama class segitiga
@@ -135,6 +136,7 @@ maka akan memanggil gambar dan luas di class utama (induk) secara langsung dan d
 
 dengan pemanggilan menggunakan class main
 
+
  public class Main {
     public static void main(String[] args) {
         // membuat objek bangundatar dari class persegi
@@ -159,6 +161,11 @@ dengan pemanggilan menggunakan class main
 }
 
 code diatas menggunakan method draw untuk memanggil abstract class agar terbaca sebagai nama saja dari objek tidak memiliki isi yang konkritnya.
+
+gambar hasil terdapat dibawah
+
+![Screenshot1](https://user-images.githubusercontent.com/92739297/204672846-f30a5ac1-3a1f-4522-a823-3bf318c40383.png)
+
 
 by.BAGAS DWI PRASETYO (312110053)
 
